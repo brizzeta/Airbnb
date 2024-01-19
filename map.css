@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    background-color: #dddbd7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+  
+.screen .div {
+    background-color: #dddbd7;
+    width: 1919px;
+    height: 1057px;
+    position: relative;
+    display: flex;
+}
+  
+.screen .text-wrapper {
+    top: 87px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 36px;
+    white-space: nowrap;
+    position: absolute;
+    left: 30px;
+    color: #211e1a;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+  
+.screen .vector {
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    top: 22px;
+    left: 29px;
+}
+  
+.screen .text-wrapper-2 {
+    top: 147px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+    position: absolute;
+    left: 30px;
+    color: #211e1a;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+  
+.screen .text-wrapper-3 {
+    top: 268px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+    position: absolute;
+    left: 30px;
+    color: #211e1a;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+  
+.screen .p {
+    top: 184px;
+    font-family: "Nunito Sans-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    color: #211e1a;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+  
+.screen .text-wrapper-4 {
+    top: 305px;
+    font-family: "Nunito Sans-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    color: #211e1a;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+  
+.screen .overlap-group {
+    position: absolute;
+    width: 1468px;
+    height: 985px;
+    top: 62px;
+    left: 426px;
+    background-image: url(./img/rectangle-104.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+  
+.screen .ellipse {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 467px;
+    left: 706px;
+    background-color: #47433c;
+    border-radius: 27.5px;
+}
+  
+.screen .text-wrapper-5 {
+    position: absolute;
+    top: 485px;
+    left: 717px;
+    font-family: "Nunito Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17px;
+    white-space: nowrap;
+}
+  
+
+@media only screen and (max-width: 600px) {
+    .screen .text {
+        width: 100%;
+    }
+}

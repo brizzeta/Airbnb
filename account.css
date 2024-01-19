@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
@@ -207,6 +209,10 @@ main span b {
   color: #211E1A;
 }
 
+.mobile-header{
+  display:none;
+}
+
 footer{
   width: 100%;
   height: 80%;
@@ -277,6 +283,16 @@ footer{
     main { grid-area: 3 / 1 / 4 / 2; }
     .div4 { grid-area: 4 / 1 / 5 / 2; }
     .div5 { grid-area: 5 / 1 / 6 / 2; }
+    
+    .mobile-header { 
+      grid-area: 1 / 1 / 2 / 2; 
+      display:flex;
+    }
+
+    .mobile-header img{
+      width: 92px;
+      height: 82px;
+    }
   }
 
 
